@@ -15,6 +15,7 @@
         go
         air
       ];
+      env.GOPATH = "${builtins.getEnv "HOME"}/.cache/go";
     };
   };
 }
